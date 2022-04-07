@@ -1,0 +1,112 @@
+body
+{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+.topnavigation {
+    overflow: hidden;
+    background-color: #333;
+    font-family: poppins;
+    
+  }
+  
+  .topnavigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .active {
+    background-color: whitesmoke;
+    color: red;
+  }
+  
+  .topnavigation .icon {
+    display: none;
+  }
+  
+  .dropDown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropDown .dropBtn {
+    font-size: 15px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contents a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnavigation a:hover, .dropDown:hover .dropBtn {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #ff0000;
+  }
+  
+  .dropdown-contents a:hover {
+    background-color: whitesmoke;
+    color: rgb(255, 0, 0);
+  }
+  
+  .dropDown:hover .dropdown-contents {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnavigation a:not(:first-child), .dropDown .dropBtn {
+      display: none;
+    }
+    .topnavigation a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnavigation.responsive {position: relative;}
+    .topnavigation.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnavigation.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnavigation.responsive .dropDown {float: none;}
+    .topnavigation.responsive .dropdown-contents {position: relative;}
+    .topnavigation.responsive .dropDown .dropBtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
