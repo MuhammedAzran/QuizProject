@@ -1,0 +1,267 @@
+body
+{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+.pageheader
+{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.logo-space
+{
+    float: left;
+    width:15%;
+    height: 80px;
+    
+    text-align: center;
+}
+#logo-quiz
+{
+    margin-top: 27px;
+}
+.top-links
+{
+    text-align: center;
+    font-family: poppins;
+    color: black;
+}
+.filler
+{
+    float: left;
+    height: 80px;
+    width: 21.25%;
+    text-align: center;
+    font-family: poppins;
+}
+.filler2
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+.quizlinks
+{
+    color: black;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.pageheader a
+{
+    text-decoration: none;
+    color: black;
+}
+.pageheader a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+.bannerimage
+{
+    position: relative;
+}
+.banner
+{
+    width: 100%;
+}
+.bannertext
+{
+    position: absolute;
+    font-family: poppins;
+    color: black;
+    bottom: 8px;
+    left: 16px;
+    font-size: 2.5vw;
+}
+.sub-head
+{
+    width: 100%;
+    padding: 15px;
+}
+.options
+{
+    font-family: poppins;
+    margin-left: 7px;
+    font-size: 1.8vw;
+}
+.left-body
+{
+    width: 80.08%;
+    float: left;
+    height: 367px;
+}
+.right-body
+{
+    width: 19.92%;
+    float: left;
+    position: relative;
+}
+.right-body img
+{
+    width: 100%;
+    float: left;
+}
+#adtext
+{
+    font-family: poppins;
+    position: absolute;
+    margin-top: 270%;
+    font-size: 1.5vw;
+    margin-left: 5%;
+}
+.img-fluid
+{
+    width: 181px;
+}
+.optiontext
+{
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    text-decoration: none;
+}
+.optiontext:hover
+{
+    cursor: pointer;
+    color: red;
+    text-decoration: none;
+}
+
+#previousbtn
+{
+    padding: 0%;
+    margin: 0%;
+    width: 2%;
+    height: 10%;
+    top: 90px;
+    
+    left: 4%;
+    
+}
+#nextbtn
+{
+    padding: 0%;
+    margin: 0%;
+    width: 2%;
+    height: 10%;
+    top: 90px;
+    right: 4%;
+}
+
+#previousbtn2
+{
+    margin-top: 20%;
+    width: 3%;
+    height: 10%;
+    left: 6%;
+}
+#nextbtn2
+{
+    margin-top: 20%;
+    width: 3%;
+    height: 10%;
+    right: 6%;
+}
+
+#previousbtn3
+{
+    margin-top: 40%;
+    width: 4%;
+    height: 10%;
+    left: 10%;
+    
+}
+#nextbtn3
+{
+    margin-top: 40%;
+    width: 4%;
+    height: 10%;
+    right: 10%;
+}
+
+.bio
+{
+    width: 100%;
+    background-color: #ececec;
+    height: 100px;
+    float: left;
+}
+.bio h3
+{
+    margin-left: 16px;
+    top: 10px;
+    font-family: poppins;
+    font-size: 2vw;
+}
+.bio p
+{
+    margin-left: 16px;
+    font-family: poppins;
+    font-size: 1.4vw;
+    color: black;
+}
+#testrun1{
+    display: inline-block;
+}
+#testrun2
+{
+    display: none;
+}
+#testrun3
+{
+    display: none;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .sub-head
+    {
+        /* height: 40px; */
+        background-color: blue;
+    }
+    #testrun1
+    {
+        display: none;
+    }
+    #testrun2
+    {
+        display:flex;
+    }
+    
+}
+
+@media only screen and (max-width: 600px)
+{
+    .sub-head
+    {
+        height: 40px;
+        
+    }
+    #testrun1
+    {
+        display: none;
+    }
+    #testrun2
+    {
+        display: none;
+    }
+
+    #testrun3
+    {
+        display:flex;
+    }
+    .left-body
+    {
+        width: 100%;
+    }
+    .right-body
+    {
+        display: none;
+    }
+}

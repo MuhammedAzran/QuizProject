@@ -1,0 +1,64 @@
+body
+{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+.pageheader
+{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.logo-space
+{
+    float: left;
+    width:15%;
+    height: 80px;
+    
+    text-align: center;
+}
+#logo-quiz
+{
+    margin-top: 27px;
+}
+.top-links
+{
+    text-align: center;
+    font-family: poppins;
+    color: black;
+}
+.filler
+{
+    float: left;
+    height: 80px;
+    width: 21.25%;
+    text-align: center;
+    font-family: poppins;
+}
+.filler2
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+.quizlinks
+{
+    color: black;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.pageheader a
+{
+    text-decoration: none;
+    color: black;
+}
+.pageheader a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
